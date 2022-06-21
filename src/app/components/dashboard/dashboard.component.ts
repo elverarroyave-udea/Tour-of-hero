@@ -16,6 +16,7 @@ export class DashboardComponent implements OnInit {
   heroes: Hero[] = [];
 
   ngOnInit(): void {
+    this.getHeroes();
   }
 
   getHeroes(): void {
